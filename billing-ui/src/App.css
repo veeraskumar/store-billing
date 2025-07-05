@@ -1,0 +1,58 @@
+.w-95 {
+  width: 95% !important;
+}
+
+.h-15 {
+  height: 15% !important;
+}
+
+.h-26rem {
+  height: 26rem !important;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  height: 120px;
+}
+
+.nav .store-details {
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.nav .store-details .logo {
+  width: 40%;
+  height: 100%;
+}
+
+.img-logo {
+  width: 180px;
+}
+
+.nav .date a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav .date a:hover {
+  color: #4d79ff;
+}
+
+.billing {
+  margin-top: 30px;
+}
+
+.billing table {
+  table-layout: fixed;
+  margin: auto;
+}
+
+.billing table td input {
+  font-size: 18px;
+}
